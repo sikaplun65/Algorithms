@@ -17,7 +17,7 @@
                     arrayList.add(i * j);                    O(1)
                 }
             }
-                                                              O(1 + 1 + n * (log n) + 1) = O(n)
+                                                              O(1 + 1 + n * (log n) + 1) = O(n)   // false
 
     b)
 
@@ -40,7 +40,7 @@
                     n--;                                     O(1)
                 }
             }
-                                                             O(1 + 1 + n*n + 1 + 1) = O(n^2)
+                                                             O(1 + 1 + n*n + 1 + 1) = O(n^2)  //false
     d)
     ```
 
@@ -66,7 +66,7 @@
         }
         return fib(n.subtract(BigInteger.ONE)).add(fib(n.subtract(BigInteger.TWO)));   O(1)
     }
-                                                                                       O(1 + n + 1 + 1 + 1 + 1 + 1) = O(n)
+                                                                                       O(1 + n + 1 + 1 + 1 + 1 + 1) = O(n)  // false
 */
 
 
