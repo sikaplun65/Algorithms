@@ -111,7 +111,7 @@ public class Lesson2 {
                 var indA = arr.indexOf(a.brand);
                 var indB= arr.indexOf(b.brand);
 
-                return indA > indB;
+                return indA < indB;
             }
         }
     }
