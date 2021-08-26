@@ -86,7 +86,7 @@ public class Lesson2 {
 
         for (int i = 0; i < arr.length - 1; i++) {    // i - номер текущего шага
             int posMin = i;
-            // цикл выбора наименьшего и наибольшего элементов
+            // цикл выбора наименьшего  элемента
             for (int j = i + 1; j < arr.length; j++) {
                 if (compare( arr[j], arr[posMin], MANUFACTURER)) {
                     posMin = j;    // posMin - индекс наименьшего элемента
